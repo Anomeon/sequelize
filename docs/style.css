@@ -18,6 +18,8 @@
 
 .navigation {
   overflow-x: hidden;
+  z-index: 1;
+  background-color: #fff;
 }
 
 .manual-root .content img {
@@ -89,6 +91,10 @@ a[href^="file/lib/"] {
   position: relative;
   top: 3px;
   padding: 0 5px;
+}
+
+.layout-container > header {
+  z-index: 2;
 }
 
 .header-logo {
